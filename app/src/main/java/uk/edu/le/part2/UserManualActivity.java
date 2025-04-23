@@ -23,7 +23,8 @@ public class UserManualActivity extends AppCompatActivity {
                         "2. Tap a course to see enrolled students.\n" +
                         "3. Long-press a course in the list to delete it.\n" +
                         "4. In the course details, tap + to add or manage students.\n" +
-                        "5. Long-press a student in the list to edit student details or delete it.";
+                        "5. Tap a student to see enrolled courses.\n" +
+                        "6. Long-press a student in the list to edit student details or delete it.";
         binding.tvManual.setText(manual);
     }
 
